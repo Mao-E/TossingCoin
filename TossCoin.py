@@ -13,3 +13,7 @@ for i in range(3):
         counttails+=1
 
 print("Heads: {0}, Tails: {1}".format(countheads,counttails))
+if countheads > counttails:
+    print("You won!")
+else:
+    print("You lost...")
