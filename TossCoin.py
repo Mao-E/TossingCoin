@@ -1,5 +1,8 @@
 import random
 
+print("Who are you?")
+name=input("> ")
+print("Hello, {0}!".format(name))
 print("Tossing a coin...")
 coin=["Heads","Tails"]
 countheads=0
